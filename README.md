@@ -27,7 +27,7 @@ Make sure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ваш-юзернейм/pokedex-website.git
+   git clone https://github.com/potapovdmitri/pokedex-website.git
    
 2. Navigate to the project folder:
   cd pokedex-website
