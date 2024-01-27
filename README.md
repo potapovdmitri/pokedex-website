@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Pokedex Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Pokedex Website! This project is a simple web application that serves as a Pokedex, allowing users to explore and view information about Pokemon.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Running the App](#running-the-app)
+  - [Development Mode](#development-mode)
+  - [Production Build](#production-build)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Make sure you have the following installed:
 
-### `npm test`
+- Node.js: [Download and Install Node.js](https://nodejs.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/potapovdmitri/pokedex-website.git
+   
+2. Navigate to the project folder:
+  cd pokedex-website
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Install dependencies:
+  npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Running the App
+Development Mode
+To run the app in development mode, use the following command:
+  npm start
+The app will be accessible at http://localhost:3000 in your browser.
 
-### `npm run eject`
+7. Production Build
+To build the app for production, use the following command:
+  npm run build
+This will create a build folder with optimized production-ready files.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+8. Usage
+Once the app is running, you can open your web browser and go to http://localhost:3000 to explore the Pokedex. Navigate through the Pokemon list, click on individual Pokemon to view details, and enjoy the Pokedex experience!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+9. Contributing
+If you would like to contribute to this project, please follow these steps:
+  1. Fork the repository.
+  2. Create a new branch for your feature or bug fix: git checkout -b feature-name
+  3. Make changes and commit them: git commit -m "Your message"
+  4. Push to the branch: git push origin feature-name
+  5. Submit a pull request.
+10. License
+This project is licensed under the MIT License.
